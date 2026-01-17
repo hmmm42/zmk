@@ -1,4 +1,3 @@
-
 # Setup
 
 1. install [dependencies](https://docs.zephyrproject.org/3.5.0/develop/getting_started/index.html#install-dependencies)
@@ -11,6 +10,7 @@
 8. download/update modules: `west update`, `west zephyr-export`
 9. install python packages: `pip install -r zephyr/scripts/requirements-base.txt`
 10. build the shield:
+
 ```
 cd app
 # default
@@ -20,7 +20,9 @@ west -s app build -b nice_nano_v2 -S zmk-usb-logging -- -DSHIELD=ballkey_clunky
 # ZMK Studio
 west -s app build -p -b nice_nano_v2 -S zmk-usb-logging -S studio-rpc-usb-uart -- -DSHIELD=ballkey_clunky -DCONFIG_ZMK_STUDIO=y
 ```
+
 11. flash:
+
 ```
 powershell.exe "cp build/zephyr/zmk.uf2 d:/"
 cp build/zephyr/zmk.uf2 /run/media/klesh/NICENANO

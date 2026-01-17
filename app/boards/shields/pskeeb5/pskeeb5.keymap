@@ -48,17 +48,17 @@
     combos {
         compatible = "zmk,combos";
         // combo_tab {
-        //     timeout-ms = <40>; 
+        //     timeout-ms = <40>;
         //     key-positions = <2 3>;
         //     bindings = <&kp TAB>;
         // };
         // combo_enter {
-        //     timeout-ms = <40>; 
+        //     timeout-ms = <40>;
         //     key-positions = <16 17>;
         //     bindings = <&kp ENTER>;
         // };
         // combo_esc {
-        //     timeout-ms = <40>; 
+        //     timeout-ms = <40>;
         //     key-positions = <12 13>;
         //     bindings = <&kp ESC>;
         // };
@@ -102,13 +102,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭────────────────┬──────────┬──────────┬──────────┬─────────────╮
         //│ F9       │ F10      │ F11      │ F12      │ INSERT   │   │ .              │ 7        │ 8        │ 9        │  =          │
-            &kp F9     &kp F10    &kp F11    &kp F12    &kp INS        &kp DOT         &kp N7     &kp N8     &kp N9    &kp EQUAL  
+            &kp F9     &kp F10    &kp F11    &kp F12    &kp INS        &kp DOT         &kp N7     &kp N8     &kp N9    &kp EQUAL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────────┼──────────┼──────────┼──────────┼─────────────┤
         //│ F5       │ F6       │  F7      │  F8      │ PAGE UP  │   │ -              │ 4        │ 5        │ 6        │  +          │
-            &kp F5     &kp F6      &kp F7     &kp F8    &kp PG_UP      &kp KP_MINUS     &kp N4     &kp N5    &kp N6      &kp KP_PLUS   
+            &kp F5     &kp F6      &kp F7     &kp F8    &kp PG_UP      &kp KP_MINUS     &kp N4     &kp N5    &kp N6      &kp KP_PLUS
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────────┼──────────┼──────────┼──────────┼─────────────┤
         //│ F1       │  F2      │  F3       │  F4     │ PAGE DN  │   │ *              │ 1        │ 2        │ 3        │ /           │
-           &kp F1     &kp F2     &kp F3     &kp F4     &kp PG_DN       &kp KP_MULTIPLY  &kp N1     &kp N2     &kp N3     &kp KP_DIVIDE 
+           &kp F1     &kp F2     &kp F3     &kp F4     &kp PG_DN       &kp KP_MULTIPLY  &kp N1     &kp N2     &kp N3     &kp KP_DIVIDE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                         &trans     &trans    &trans     &trans           &trans &kp N0     &kp DOT       &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -120,10 +120,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭────────────┬──────────┬──────────┬──────────┬──────────╮
         //│  !       │  @       │  #       │  $       │  %       │   │ ^          │  &       │  *       │ (        │  )       │
-            &kp EXCL    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT     &kp CARET     &kp AMPS   &kp STAR  &kp LPAR    &kp RPAR 
+            &kp EXCL    &kp AT     &kp HASH   &kp DLLR   &kp PRCNT     &kp CARET     &kp AMPS   &kp STAR  &kp LPAR    &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┼──────────┼──────────┼──────────┼──────────┤
         //│  ~       │  -       │  =       │  _       │  +       │   │ [          │  ]       │  {       │  }       │  |       │
-            &kp TILDE   &kp MINUS  &kp EQUAL  &kp UNDER  &kp PLUS      &kp LBRC      &kp RBRC   &kp LBKT   &kp RBKT  &kp RPAR 
+            &kp TILDE   &kp MINUS  &kp EQUAL  &kp UNDER  &kp PLUS      &kp LBRC      &kp RBRC   &kp LBKT   &kp RBKT  &kp RPAR
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├────────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │  `       │  '       │  "       │   │  \         │          │          │          │          │
             &trans     &trans     &kp GRAVE  &kp SQT     &kp DQT        &kp BSLH     &trans     &trans    &trans     &trans
