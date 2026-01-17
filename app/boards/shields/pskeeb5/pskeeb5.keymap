@@ -141,7 +141,7 @@
             &kp N1     &kp N2       &kp N3       &kp N4         &kp N5           &kp N6          &kp N7          &kp N8        &kp N9           &kp N0
         //├──────────┼────────────┼───────────┼──────────────┼─────────────┤   ├──────────────┼───────────────┼─────────────┼────────────────┼──────────┤
         //│ Option   │ Shift      │ Cmd       │ Ctrl         │  Cmd+A      │   │ Left         │ Down          │ Up          │ Right          │ Enter    │
-           &kp LALT    &kp LSHIFT   &kp LGUI    &kp LCTRL       &m_all           &kp LEFT       &kp DOWN        &kp UP        &kp RIGHT         &kp ENTER
+           &kp LALT    &kp LSHIFT   &kp LGUI    &kp LCTRL       &kp LG(A)        &kp LEFT       &kp DOWN        &kp UP        &kp RIGHT         &kp ENTER
         //├──────────┼────────────┼───────────┼──────────────┼─────────────┤   ├──────────────┼───────────────┼─────────────┼────────────────┼──────────┤
         //│ Caps     │ Middle Clk │ Left Clk  │ Right Clk    │  Pre Word   │   │ Home         │ Pre Tab       │ Next Tab    │     End        │  Option  │
            &caps_word     &mkp MCLK    &mkp LCLK   &mkp RCLK       &kp LA(LEFT)     &kp LC(LEFT)   &kp LC(PAGE_UP) &kp LC(PAGE_DOWN) &kp LC(RIGHT) &kp LALT
